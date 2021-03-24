@@ -17,7 +17,7 @@ sha256sums=("SKIP")
 
 
 package() {
-	cd "$_gitname/$_theme"
-	install -m755 -d "${pkgdir}/usr/share/plasma/look-and-feel/$_theme"
-	install -m644 -t "${pkgdir}/usr/share/plasma/look-and-feel/$_theme" *
+	cd "$_gitname"
+	mkdir -p "${pkgdir}/usr/share/plasma/look-and-feel/"
+	cp -dr --no-preserve=ownership "$_theme" "${pkgdir}/usr/share/plasma/look-and-feel/"
 }
