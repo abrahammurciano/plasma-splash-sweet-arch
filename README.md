@@ -1,4 +1,4 @@
-# Sweet Arch Plasma Splasth Theme
+# Sweet Arch Plasma Splash Theme
 
 ![Preview](Sweet-Arch/contents/previews/splash.png)
 
@@ -6,9 +6,9 @@
 
 ### Arch Linux
 
-Install the package `plasma-splash-sweet-arch`
+Install the package `plasma-splash-sweet-arch-git`
 ```
-$ yay -S plasma-splash-sweet-arch
+$ yay -S plasma-splash-sweet-arch-git
 ```
 
 ### Other Distros
